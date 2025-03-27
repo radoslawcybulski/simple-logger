@@ -10,8 +10,6 @@ set(BUILD_SHARED_LIBS OFF)
 set(CMAKE_CXX_STANDARD 20)
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
-set(BOOST_INCLUDE_LIBRARIES program_options)
-
 if(WIN32)
 add_definitions(-D_WIN32_WINNT=0x0601)
 endif()
